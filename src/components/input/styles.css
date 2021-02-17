@@ -1,0 +1,39 @@
+.component-container {
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.input-container {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #464f4b;
+    font: 1.2em "Fira Sans", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font: 1.2em "Fira Sans", sans-serif;
+}
+
+.input {
+    flex: 0.6;
+    padding: 0;
+    height: 100%;
+}
+
+.input-button {
+    flex: 0.2;
+    height: 100%;
+}
+
+.input, .input-button, .input:focus, .input-button:focus {
+    border: none;
+    outline: none;
+}

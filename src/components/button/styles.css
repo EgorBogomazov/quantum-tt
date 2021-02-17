@@ -1,0 +1,15 @@
+.button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #464f4b;
+    border-radius: 5px;
+    box-shadow: none;
+    font: 1.2em "Fira Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button:focus {
+    border: 1px solid #464f4b;
+    outline: none;
+}

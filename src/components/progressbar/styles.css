@@ -1,0 +1,25 @@
+.svg{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.svg-circle-bg {
+    fill: none;
+}
+
+.svg-circle {
+    fill: none;
+}
+
+.svg-circle-text {
+    fill: black;
+    font: 1.2em "Fira Sans", sans-serif;
+    text-anchor: middle;
+}
+
+.svg-value-text {
+    fill: black;
+    font-size: 3rem;
+    text-anchor: middle;
+}
